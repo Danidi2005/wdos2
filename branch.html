@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branches</title>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+       <!-- Navigation bar -->
+    <nav class="navbar" id="navbar">
+        <div>
+          <!-- Logo -->
+          <a href="index.html"><img src="..\ASSESTS\IMAGE\grand peace logo.png" class="logo" alt="hotel" /></a>
+        </div>
+        <!-- Menu items -->
+           
+        <ul id="navigationUl">
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="branch.html" class="active">Branches</a></li>
+          <!-- Dropdown menu for Restaurants -->
+          <li class="dropdown">
+            <a href="restaurant.html" class="dropbtn">Restaurants</a>
+            <div class="dropdown-content">
+              <a href="eventone.html">Events-Christmas</a>
+              <a href="eventtwo.html">Events-weddings</a>
+            </div>
+          </li>
+          <li><a href="adventure.html">Adventures</a></li>
+          <li><a href="booking.html">Booking</a></li>
+        </ul>
+        <!-- Booking button -->
+        <div id="bookingButton" class="booking-button">
+          <a href="booking.html">Booking</a>
+        </div>
+        <!-- Close button for mobile navigation -->
+        <div id="navCloseButton" class="nav-close-button" onclick="closeNavbar();">
+            X
+          </div>
+          <!-- Open button for mobile navigation -->
+          <div id="navOpenButton" class="nav-open-button" onclick="openNavbar();">
+            |||
+          </div>
+        </nav>
+        <!-- Hero section -->
+        <div class="hero"></div>
+
+        <div class="branch-container">
+            <h1>GRAND PEACE Hotel Branches</h1>
+        
+        
+            <section class="branch">
+              <h2>GRAND HILL</h2>
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15840.286273920994!2d80.76303356427216!3d7.000854385806451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3802ac4e14a3b%3A0x2e692126d447a56f!2sPidurutalagala!5e0!3m2!1sen!2slk!4v1694337990112!5m2!1sen!2slk"
+                  width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <img src="../ASSESTS/IMAGE/branch1.jpg" width="600"  alt="Branch 1 Image">
+              <p>
+                Grand Hill, where luxury meets nature in the serene landscapes of Piduruthalagala.
+                Indulge in breathtaking views and luxurious accommodations for the ultimate getaway experience.
+              </p>
+            </section>
+        
+            <section class="branch">
+              <h2>GRAND VILLA</h2>
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63492.94597090225!2d80.5095476706373!3d5.952076043503972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae138d151937cd9%3A0x1d711f45897009a3!2sMatara!5e0!3m2!1sen!2slk!4v1714025726385!5m2!1sen!2slk"
+                  width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <img src="../ASSESTS/IMAGE/2nd branch.jpeg" alt="Branch 2 Image">
+              <p>
+                our second branch, situated in Matara. Experience the epitome of luxury and relaxation with world-class amenities and personalized service at Grand Villa.
+              </p>
+            </section>
+        
+            <section class="branch">
+              <h2>GRAND LAKY</h2>
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4716.240463289197!2d81.28478316299883!3d6.2808555165415205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae69cf60fdb4ae7%3A0x85fb3380b084b28a!2sTissamaharama!5e0!3m2!1sen!2slk!4v1714026131176!5m2!1sen!2slk"
+                  width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <img src="../ASSESTS/IMAGE/book pg main.jpg" alt="Branch 3 Image">
+              <p>
+                Grand Laky, nestled in Tissamaharama. With serene lakeside views, it's a haven for adventure seekers and those craving a peaceful retreat alike.
+              </p>
+            </section>
+        
+            
+            <h2>Branch Summary</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Branch Name</th>
+                  <th>Location</th>
+                  <th>Image</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>GRAND HILL</td>
+                  <td>Pidurutalagala</td>
+                  <td><img src="../ASSESTS/IMAGE/branch1.jpg" width="300" alt="Branch 1 Image"></td>
+                </tr>
+                <tr>
+                  <td>GRAND VILLA</td>
+                  <td>Matara</td>
+                  <td><img src="../ASSESTS/IMAGE/2nd branch.jpeg" width="300" alt="Branch 2 Image"></td>
+                </tr>
+                <tr>
+                  <td>GRAND LAKY</td>
+                  <td>Tissamaharama</td>
+                  <td><img src="../ASSESTS/IMAGE/book pg main.jpg" width="300" alt="Branch 3 Image"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+               <!-- Footer section -->
+          <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <ul>
+                            <li><a href="https://web.facebook.com/search/top?q=cinnamon%20grand%20colombo">About Us</a></li>
+                            <li><a href="https://web.facebook.com/search/top?q=cinnamon%20grand%20colombo">Contact Us</a></li>
+                            <li><a href="https://web.facebook.com/search/top?q=cinnamon%20grand%20colombo">Terms of Service</a></li>
+                            <li><a href="https://web.facebook.com/search/top?q=cinnamon%20grand%20colombo">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <ul class="social-media">
+                            <li><a href="https://web.facebook.com/search/top?q=cinnamon%20grand%20colombo"><img src="https://img.icons8.com/color/48/000000/facebook.png"></a></li>
+                            <li><a href="https://web.facebook.com/search/top?q=cinnamon%20grand%20colombo"><img src="https://img.icons8.com/color/48/000000/twitter.png"></a></li>
+                            <li><a href="https://web.facebook.com/search/top?q=cinnamon%20grand%20colombo"><img src="https://img.icons8.com/color/48/000000/instagram.png"></a></li>
+                            <li><a href="https://web.facebook.com/search/top?q=cinnamon%20grand%20colombo/"><img src="https://img.icons8.com/color/48/000000/youtube.png"></a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
